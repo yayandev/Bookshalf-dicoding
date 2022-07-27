@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,200&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eaeaea;
+	font-family: 'Albert Sans', sans-serif;
+}
+
+header	{
+	width: 100%;
+	background-color: #eaeaea;
+	text-align: center;
+	color: #333;
+}
+
+nav {
+	padding: 10px ;
+}
+
+nav  ul {
+	display: flex;
+	justify-content:center;
+}
+
+nav ul li {
+	padding: 5px;
+	margin: 5px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	background-color: #333;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+nav ul li a:hover {
+	background-color: #fff;
+	color: #333;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	border-radius: 50%;
+	box-shadow: 3px 3px 3px grey;
+	margin-bottom: 50px;
+	width: 25%;
+
+}
+
+main button {
+	width: 30%;
+	padding: 10px;
+	border-radius: 10px;
+	color: #eaeaea;
+	background-color: #333;
+	font-size: 18px;
+}
+
+
+main button:hover {
+	background-color: #eaeaea;
+	color: #333;
+}
+
+.hideoff {
+	display: none;
+}
+body input {
+	width: 60%;
+	text-align: center;
+	height: 30px;
+	border-radius: 10px;
+	border: solid #333;
+}
+
+
+body form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.save {
+	width: 25%;
+	padding: 5px;
+	background-color: #333;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.save:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+#mylist {
+	width: 80%;
+	margin: 0 10%;
+	border: solid black;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px grey;
+	text-align: center;
+
+
+}
+
+.list {
+	width: 80%;
+	background-color: #333;
+	margin: 20px 10%;
+	border-radius: 10px;
+	color: #eaeaea;
+}
+
+.selesai {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: green;
+	color: white;
+	margin: 10px 0;
+}
+
+.selesai:hover {
+	background-color: white;
+	color: #333;
+
+}
+
+.hapus {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: red;
+	color: white;
+	margin: 10px 0;
+}
+
+.hapus:hover{
+	background-color: white;
+	color: #333;
+}
+
+.ulangi {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: blue;
+	color: white;
+	margin: 10px 0;
+}
+
+.ulangi:hover{
+	background-color: white;
+	color: #333;
+}

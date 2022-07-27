@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+ 
+<!-- header -->
+
+<header>
+      <h1>Bookshalf</h1>
+      <nav>
+        <ul style="list-style: none;">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a onclick="hideoff();">Create</a>
+          </li>
+          <li>
+            <a onclick="list();">My list</a>
+          </li>
+        </ul>
+      </nav>
+</header>
+
+<!-- akhir header -->
+
+<!-- home -->
+<div id="home">
+<main>  
+  <img src="assets/img/logo.png" class="logo">
+  <button onclick="hideoff();">Go started</button>
+</main>
+
+</div>
+
+<!-- akhir home -->
+<br>
+<!-- create -->
+<section id="hideoff" class="hideoff">
+  <form id="form">
+    <label for="Judul">Title Book</label>
+    <input type="text" placeholder="title" id="Judul" required>
+    <br>
+    <label for="Penulis">Author Book</label>
+    <input type="text" id="Penulis" placeholder="author" required>
+    <br>
+    <label for="Tahun">Publication Year</label>
+    <input type="date" id="Tahun" placeholder="year" required>
+    <br>
+    <button  class="save" type="submit" name="submit">Save</button>
+  </form>
+</section>
+<br>
+<!-- akhir create -->
+
+
+<!-- my list -->
+
+  <div class="hideoff" id="mylist">
+    <h3 style="padding: 10px" style="color: #333;">Buku belum dibaca</h3>
+    <div class="list_baru" id="list_baru">
+      <div id="todos">
+        
+      </div>
+    </div>
+    <h3 style="padding: 10px" style="color:#333;">Buku selesai dibaca</h3>
+    <div class="list_sudah" id="list_sudah">
+      <div id="todos">
+        
+      </div>
+    </div>
+</div>
+
+<!-- akhir my list -->
+
+
+
+<footer style="text-align:center;">
+  <br>
+  <p>Create by <a href="http://yanz.epizy.com" target="_blank">Yanz</a></p>
+</footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
